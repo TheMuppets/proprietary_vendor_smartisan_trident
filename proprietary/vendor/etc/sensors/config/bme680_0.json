@@ -1,8 +1,8 @@
 {
   "config":
   {
-    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK"],
-    "soc_id": ["339", "341"]
+    "hw_platform": ["HDK"],
+    "soc_id": ["341"]
   },
   "bme680_0":{
     "owner": "sns_bme680",

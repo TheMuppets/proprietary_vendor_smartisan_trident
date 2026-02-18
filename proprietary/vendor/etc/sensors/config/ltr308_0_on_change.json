@@ -22,15 +22,6 @@
         "sync_stream":{ "type": "int", "ver": "0",
           "data": "0"
         }
-      },
-      ".config_2":{
-        "owner": "sns_ltr308",
-        "sample_rate":{ "type": "flt", "ver": "0",
-          "data": "5.0"
-        },
-        "als_cal_lux":{ "type": "flt", "ver": "0",
-          "data": "300.0"
-        }
       }
     }
   }

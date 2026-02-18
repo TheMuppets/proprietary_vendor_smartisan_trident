@@ -1,8 +1,8 @@
 {
   "config": {
-    "hw_platform": [ "MTP", "Dragon", "Surf", "IDP"
+    "hw_platform": [ "MTP", "Dragon", "Surf"
     ],
-    "soc_id": ["291", "246", "305", "321", "336", "339", "355", "360"
+    "soc_id": ["291", "246", "305", "321", "336"
     ]
   },
   "sns_tilt_to_wake": {

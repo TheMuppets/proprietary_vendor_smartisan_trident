@@ -1,0 +1,4 @@
+{
+	"housing_color":{ "type": "int", "ver": "0", "data": "3" },
+        "lux_raw":{ "type": "int", "ver": "0", "data": "2500" }
+}
