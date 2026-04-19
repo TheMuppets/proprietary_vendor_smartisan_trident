@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/smartisan/trident
 
 PRODUCT_COPY_FILES += \
+    vendor/smartisan/trident/proprietary/recovery/root/system/etc/logic_volume.conf:$(TARGET_COPY_OUT_RECOVERY)/root/system/etc/logic_volume.conf \
     vendor/smartisan/trident/proprietary/system/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
     vendor/smartisan/trident/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/smartisan/trident/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
@@ -771,6 +772,7 @@ PRODUCT_PACKAGES += \
     cnd \
     cnss-daemon \
     dm-tool \
+    dm-tool.recovery \
     dpmQmiMgr \
     hvdcp_opti \
     android.hardware.biometrics.fpcfingerprint@2.1-service \
@@ -798,6 +800,7 @@ PRODUCT_PACKAGES += \
     ks \
     loc_launcher \
     logic_volume \
+    logic_volume.recovery \
     lowi-server \
     mlid \
     mm-pp-dpps \
